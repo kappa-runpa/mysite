@@ -1,191 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <title>Corporate Site</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet"href="css/custom.css">
-    <script src="https://kit.fontawesome.com/6047a44473.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡易自己紹介</title>
+    <link rel="stylesheet"href="css/style.css">
+</head>
+<body>
     <header>
-        <div class="top-img">
-            <div class="top-text">
-            <h1>Corporate Site</h1>
-            <p>会社情報を伝えるサイトです。</p>
-            </div>
+        <div class="top">
+            <img src="img/IMG_5591.jpg"id="icon">
+            <span id="myname">成瀬光広</span>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://twitter.com/login?lang=ja"target="_blank">Twitter</a></li>
+                    <li><a href="https://ja-jp.facebook.com/"target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/?hl=ja"target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><h3>Corporate Site</h3></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-house"></i>Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#feature"><i class="fa-regular fa-lightbulb"></i>Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#service"><i class="fa-regular fa-rectangle-list"></i>Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"href="#infomation"tabindex="-1"aria-disabled="true"><i class="fa-solid fa-circle-info"></i>Infomation</a>
-              </li>
-            </ul>
-          </div>
+    <div class="container">
+        <h2>自己紹介</h2>
+        <div class="profile">
+            <p>私の名前は成瀬光広です。<br>
+                愛知県在住の61歳です。<br>
+                中部大学卒業後、ブラザー系列の会社で主に生産技術として38年働きました。<br>
+                現在は会社を定年退職し、フリーランスとして活躍しています。<br>
+                趣味は、映画、旅行、模型つくり等、多趣味に楽しんでいます。<br>
+                これは、HTML,CSSを学び始めて1ヵ月の成果です。<br>
+                まだまだ、学ぶことが多いです。レベルアップ毎に随時更新していきます。
+            </p>
+            <hr>
+    </div>
+        <div>
+            <p>1962年6月20日生まれ</p>
+            <p>何にでも興味ありありのB型</p>
+            <P>愛知県清須市出身</P>
+            <p>中部大学卒業</p>
         </div>
-      </nav>
-      <div class="feature-area"id="feature">
-        <h2>Featere</h2>
-        <p>弊社は株式会社かっぱです。<br>信用第一とお客様とご縁を大切にしております。</p>
-      </div>        
-    </div><div id="carouselExampleCaptions" class="carousel slide"data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/img-03.jpg" class="d-block w-100" alt="画像1">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>1枚目の写真です。</h5>
-              <p>説明が入ります</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/img-04.jpg" class="d-block w-100" alt="画像2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>2枚目の写真です。</h5>
-              <p>説明が入ります</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/img-05.jpg" class="d-block w-100" alt="画像3">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>3枚目の写真です。</h5>
-              <p>説明が入ります</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-      <div class="service-list"id="service">
-        <h2>Servics</h2>
-        <div class="container">
-          <div class="row service-description">
-            <div class="col-md-6">
-              <img src="img/img-05.jpg"alt="service01"class="img-fluid">
-            </div>
-            <div  class="col-md-6">
-              <h3>サービス1</h3>
-              <P>ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。</P>
-              <a href="https://getbootstrap.jp/docs/5.3/components/buttons/"><button type="button" class="btn btn-light">Light</button></a>
-            </div>
-            </div>
-          <div class="row service-description">
-            <div class="col-md-6 order-md-2">
-              <img src="img/img-06.jpg"alt="service02"class="img-fluid">
-            </div>
-            <div  class="col-md-6 order-md-1">
-              <h3>サービス2</h3>
-              <P>ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。</P>
-              <a href="https://getbootstrap.jp/docs/5.3/components/buttons/"><button type="button" class="btn btn-light">Light</button></a>
-            </div>
-            </div>
-          <div class="row service-description">
-            <div class="col-md-6">
-              <img src="img/img-07.jpg"alt="service03"class="img-fluid">
-            </div>
-            <div  class="col-md-6">
-              <h3>サービス3</h3>
-              <P>ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。</P>
-              <a href="https://getbootstrap.jp/docs/5.3/components/buttons/"><button type="button" class="btn btn-light">Light</button></a>
-            </div>
-            </div>
-          <div class="row service-description">
-            <div class="col-md-6 order-md-2">
-              <img src="img/img-08.jpg"alt="service03"class="img-fluid">
-            </div>
-            <div  class="col-md-6 order-md-1">
-              <h3>サービス4</h3>
-              <P>ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。</P>
-              <a href="https://getbootstrap.jp/docs/5.3/components/buttons/"><button type="button" class="btn btn-light">Light</button></a>
-            </div>
-           </div>     
-        </div>
-      </div>
-      <div class="feature-area"id="Infomation">
-        <h2>Information</h2>
-       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="info">
-              <i class="fa-solid fa-user fa-4x"></i>
-              <p>ここに商品説明が入ります。ここに商品説明が入ります。</p>
-            </div>
-          </div>
-         <div class="col-md-4">
-            <div class="info">
-              <i class="fa-solid fa-diagram-project fa-4x"></i>
-              <p>ここに商品説明が入ります。ここに商品説明が入ります。</p>
-            </div>
-         </div>
-          <div class="col-md-4">
-            <div class="info">
-              <i class="fa-solid fa-laptop-code fa-4x"></i>
-              <p>ここに商品説明が入ります。ここに商品説明が入ります。</p>
-            </div>
-          </div>
-        </div>
-       </div>
-      </div>  
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#feature">Feature</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#infomation">Infomation</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <ul>
-                <li><a href="#service">サービス1</a></li>
-                <li><a href="#service">サービス2</a></li>
-                <li><a href="#service">サービス3</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <ul>
-                <li><a href="#">リンク1</a></li>
-                <li><a href="#">リンク2</a></li>
-                <li><a href="#">リンク3</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <p>&copy: 2023 Naruse</p>
-      </footer>      
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-  </body>
+    </div>
+        <footer>
+            <p>&copy;2023.12.07 Mitsuhiro Naruse</p>
+        </footer>
+        
+</body>
 </html>
